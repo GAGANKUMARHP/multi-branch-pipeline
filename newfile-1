@@ -37,7 +37,7 @@ pipeline
                 }
             }
         }
-    }
+    
   stage('deploy') {
     parallel {
       stage('server1') {
