@@ -6,6 +6,9 @@ agent none
     }
     agent any
     steps {
+        when {
+           branch 'branch-1'
+             }     
       echo " new code for build"
       sh 'sleep 5'
     }
